@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1200" height="620" viewBox="0 0 1200 620">
+  <title>Altimetría: Almuñécar a Loja</title>
+  <rect x="0" y="0" width="1200" height="620" rx="0" fill="#ffffff" />
+  <line x1="150" y1="500" x2="150" y2="270" stroke="#999999" stroke-width="0.8" />
+  <line x1="145" y1="500" x2="150" y2="500" stroke="#999999" stroke-width="0.8" />
+  <line x1="150" y1="500" x2="1050" y2="500" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="3,3" />
+  <text x="142" y="503" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="8" fill="#777777" text-anchor="end">0</text>
+  <line x1="145" y1="467.14" x2="150" y2="467.14" stroke="#999999" stroke-width="0.8" />
+  <line x1="150" y1="467.14" x2="1050" y2="467.14" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="3,3" />
+  <text x="142" y="470.14" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="8" fill="#777777" text-anchor="end">200</text>
+  <line x1="145" y1="434.29" x2="150" y2="434.29" stroke="#999999" stroke-width="0.8" />
+  <line x1="150" y1="434.29" x2="1050" y2="434.29" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="3,3" />
+  <text x="142" y="437.29" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="8" fill="#777777" text-anchor="end">400</text>
+  <line x1="145" y1="401.43" x2="150" y2="401.43" stroke="#999999" stroke-width="0.8" />
+  <line x1="150" y1="401.43" x2="1050" y2="401.43" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="3,3" />
+  <text x="142" y="404.43" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="8" fill="#777777" text-anchor="end">600</text>
+  <line x1="145" y1="368.57" x2="150" y2="368.57" stroke="#999999" stroke-width="0.8" />
+  <line x1="150" y1="368.57" x2="1050" y2="368.57" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="3,3" />
+  <text x="142" y="371.57" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="8" fill="#777777" text-anchor="end">800</text>
+  <line x1="145" y1="335.71" x2="150" y2="335.71" stroke="#999999" stroke-width="0.8" />
+  <line x1="150" y1="335.71" x2="1050" y2="335.71" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="3,3" />
+  <text x="142" y="338.71" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="8" fill="#777777" text-anchor="end">1000</text>
+  <line x1="145" y1="302.86" x2="150" y2="302.86" stroke="#999999" stroke-width="0.8" />
+  <line x1="150" y1="302.86" x2="1050" y2="302.86" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="3,3" />
+  <text x="142" y="305.86" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="8" fill="#777777" text-anchor="end">1200</text>
+  <line x1="145" y1="270" x2="150" y2="270" stroke="#999999" stroke-width="0.8" />
+  <line x1="150" y1="270" x2="1050" y2="270" stroke="#dddddd" stroke-width="0.5" stroke-dasharray="3,3" />
+  <text x="142" y="273" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="8" fill="#777777" text-anchor="end">1400</text>
+  <polyline points="150,500 150,496.71 173.34,493.43 227.49,483.57 260.17,426.07 278.37,394.86 295.64,365.29 313.38,385 331.12,370.21 350.26,408 375,370.21 398.81,370.21 434.75,377.61 457.16,368.57 466.49,357.07 488.43,337.36 509.44,314.36 525.78,294.64 539.32,278.54 560.79,314.36 584.13,349.68 619.61,352.14 636.88,358.71 665.82,329.14 699.9,365.29 747.04,385 784.85,386.64 810.53,394.86 826.87,399.79 840.87,398.14 859.54,360.36 875.41,330.13 894.55,362.99 921.16,371.86 982.31,414.57 994.45,420.32 1018.26,422.79 1050,421.96 1050,500 150,500" fill="#e8412c" stroke="#a8261a" stroke-width="1.2" stroke-linejoin="round" />
+  <polygon points="150,500 150,496.71 173.34,493.43 227.49,483.57 260.17,426.07 278.37,394.86 295.64,365.29 295.64,500" fill="#a8261a" />
+  <polygon points="434.75,500 434.75,377.61 457.16,368.57 466.49,357.07 488.43,337.36 509.44,314.36 525.78,294.64 539.32,278.54 539.32,500" fill="#a8261a" />
+  <polygon points="826.87,500 826.87,399.79 840.87,398.14 859.54,360.36 875.41,330.13 875.41,500" fill="#a8261a" />
+  <line x1="140" y1="500" x2="1060" y2="500" stroke="#1a1a1a" stroke-width="1.5" />
+  <path d="M141,215 h18 a4,4 0 0 1 4,4 v20 l-13,8 l-13,-8 v-20 a4,4 0 0 1 4,-4 z" fill="#3aa0dc" />
+  <text x="150" y="231" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">S</text>
+  <line x1="150" y1="249" x2="150" y2="500" stroke="#1a1a1a" stroke-width="1" />
+  <text x="120" y="500" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="17" fill="#1a1a1a" text-anchor="start" font-weight="bold" transform="rotate(-90 120 500)">ALMUÑÉCAR / 20 m</text>
+  <path d="M286.64,215 h18 a4,4 0 0 1 4,4 v20 l-13,8 l-13,-8 v-20 a4,4 0 0 1 4,-4 z" fill="#c86fb4" />
+  <text x="295.64" y="231" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <line x1="295.64" y1="249" x2="295.64" y2="500" stroke="#1a1a1a" stroke-width="0.8" />
+  <text x="299.64" y="207" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="11" fill="#1a1a1a" text-anchor="start" font-weight="bold" transform="rotate(-90 299.64 207)">Puerto 1 (1-Categoría) / 820 m</text>
+  <path d="M530.32,215 h18 a4,4 0 0 1 4,4 v20 l-13,8 l-13,-8 v-20 a4,4 0 0 1 4,-4 z" fill="#c86fb4" />
+  <text x="539.32" y="231" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <line x1="539.32" y1="249" x2="539.32" y2="500" stroke="#1a1a1a" stroke-width="0.8" />
+  <text x="543.32" y="207" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="11" fill="#1a1a1a" text-anchor="start" font-weight="bold" transform="rotate(-90 543.32 207)">Puerto 2 (3-Categoría) / 1348 m</text>
+  <path d="M817.87,215 h18 a4,4 0 0 1 4,4 v20 l-13,8 l-13,-8 v-20 a4,4 0 0 1 4,-4 z" fill="#d7e36b" />
+  <text x="826.87" y="231" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="10" fill="#333333" text-anchor="middle" font-weight="bold">SP</text>
+  <line x1="826.87" y1="249" x2="826.87" y2="500" stroke="#1a1a1a" stroke-width="0.8" />
+  <text x="830.87" y="207" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="11" fill="#1a1a1a" text-anchor="start" font-weight="bold" transform="rotate(-90 830.87 207)">Sprint intermedio / 610 m</text>
+  <path d="M866.41,215 h18 a4,4 0 0 1 4,4 v20 l-13,8 l-13,-8 v-20 a4,4 0 0 1 4,-4 z" fill="#c86fb4" />
+  <text x="875.41" y="231" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <line x1="875.41" y1="249" x2="875.41" y2="500" stroke="#1a1a1a" stroke-width="0.8" />
+  <text x="879.41" y="207" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="11" fill="#1a1a1a" text-anchor="start" font-weight="bold" transform="rotate(-90 879.41 207)">Puerto 3 (2-Categoría) / 1034 m</text>
+  <path d="M985.45,215 h18 a4,4 0 0 1 4,4 v20 l-13,8 l-13,-8 v-20 a4,4 0 0 1 4,-4 z" fill="#8cc63f" />
+  <text x="994.45" y="231" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">B</text>
+  <line x1="994.45" y1="249" x2="994.45" y2="500" stroke="#1a1a1a" stroke-width="0.8" />
+  <text x="998.45" y="207" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="11" fill="#1a1a1a" text-anchor="start" font-weight="bold" transform="rotate(-90 998.45 207)">Sprint bonificado / 485 m</text>
+  <path d="M1041,215 h18 a4,4 0 0 1 4,4 v20 l-13,8 l-13,-8 v-20 a4,4 0 0 1 4,-4 z" fill="#d8231f" />
+  <text x="1050" y="231" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">M</text>
+  <line x1="1050" y1="249" x2="1050" y2="500" stroke="#1a1a1a" stroke-width="1" />
+  <text x="1092" y="500" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="17" fill="#1a1a1a" text-anchor="start" font-weight="bold" transform="rotate(-90 1092 500)">LOJA / 475 m</text>
+  <line x1="150" y1="500" x2="150" y2="506" stroke="#1a1a1a" stroke-width="1" />
+  <text x="150" y="520" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="bold">0</text>
+  <line x1="295.64" y1="500" x2="295.64" y2="506" stroke="#1a1a1a" stroke-width="1" />
+  <text x="295.64" y="520" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="bold">31,2</text>
+  <line x1="539.32" y1="500" x2="539.32" y2="506" stroke="#1a1a1a" stroke-width="1" />
+  <text x="539.32" y="520" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="bold">83,4</text>
+  <line x1="826.87" y1="500" x2="826.87" y2="506" stroke="#1a1a1a" stroke-width="1" />
+  <text x="826.87" y="520" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="bold">145</text>
+  <line x1="875.41" y1="500" x2="875.41" y2="506" stroke="#1a1a1a" stroke-width="1" />
+  <text x="875.41" y="520" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="bold">155,4</text>
+  <line x1="994.45" y1="500" x2="994.45" y2="506" stroke="#1a1a1a" stroke-width="1" />
+  <text x="994.45" y="520" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="bold">180,9</text>
+  <line x1="1050" y1="500" x2="1050" y2="506" stroke="#1a1a1a" stroke-width="1" />
+  <text x="1050" y="520" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="bold">192,8 km</text>
+  <text x="40" y="40" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="22" fill="#1a1a1a" text-anchor="start" font-weight="bold">Etapa 13: Almuñécar a Loja</text>
+  <text x="40" y="62" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="13" fill="#555555" text-anchor="start">Montaña · 192,8 km · 2026-09-04</text>
+  <text x="600" y="570" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Desnivel positivo: 2.332 m</text>
+</svg>

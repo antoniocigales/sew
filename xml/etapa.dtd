@@ -1,0 +1,95 @@
+<!-- ===================== ELEMENTO RAÍZ ===================== -->
+<!ELEMENT etapa (nombreEtapa, numeroEtapa, longitudEtapa, fechaEtapa,
+                 tiempoGanador, velocidadGanador, desnivelEtapa,
+                 ciudadInicio, ciudadFinal,
+                 referencias, multimedia,
+                 lugarSalida, lugarLlegada,
+                 hitosImportantes, clasificacion)>
+
+<!-- ===================== DATOS GENERALES ===================== -->
+<!ATTLIST etapa tipoEtapa  (llana|montaña|contrarreloj-individual|contrarreloj-por-equipos|media-montaña) #REQUIRED>
+<!ELEMENT nombreEtapa      (#PCDATA)>
+<!ELEMENT numeroEtapa      (#PCDATA)>
+
+<!ELEMENT longitudEtapa    (#PCDATA)>
+<!ATTLIST longitudEtapa    unidades  CDATA #REQUIRED>
+
+<!ELEMENT fechaEtapa       (#PCDATA)>
+<!ELEMENT tiempoGanador    (#PCDATA)>
+
+<!ELEMENT velocidadGanador (#PCDATA)>
+<!ATTLIST velocidadGanador unidades  CDATA #REQUIRED>
+
+<!ELEMENT desnivelEtapa    (#PCDATA)>
+<!-- OJO: en el XML el atributo está escrito "undidades" -->
+<!ATTLIST desnivelEtapa    undidades CDATA #REQUIRED>
+
+<!ELEMENT ciudadInicio     (#PCDATA)>
+<!ELEMENT ciudadFinal      (#PCDATA)>
+
+
+<!-- ===================== REFERENCIAS ===================== -->
+<!ELEMENT referencias (referencia+)>
+<!ELEMENT referencia  (#PCDATA)>
+
+<!-- ===================== MULTIMEDIA ===================== -->
+<!ELEMENT multimedia (fotos, videos, sonidos)>
+<!ELEMENT fotos      (foto+)>
+<!ELEMENT foto       (#PCDATA)>
+<!ELEMENT videos     (video+)>
+<!ELEMENT video      (#PCDATA)>
+<!ELEMENT sonidos    (sonido+)>
+<!ELEMENT sonido     (#PCDATA)>
+
+<!-- ===================== COORDENADAS ===================== -->
+<!ELEMENT lugarSalida  (longitud, latitud, altitud)>
+<!ELEMENT lugarLlegada (longitud, latitud, altitud)>
+
+<!ELEMENT longitud  (#PCDATA)>
+<!ATTLIST longitud  unidades CDATA #REQUIRED>
+<!ELEMENT latitud   (#PCDATA)>
+<!ATTLIST latitud   unidades CDATA #REQUIRED>
+<!ELEMENT altitud   (#PCDATA)>
+<!ATTLIST altitud   unidades CDATA #REQUIRED>
+<!ELEMENT distancia (#PCDATA)>
+<!ATTLIST distancia unidades CDATA #REQUIRED>
+
+<!-- ===================== HITOS IMPORTANTES ===================== -->
+<!ELEMENT hitosImportantes (puertos, sprints)>
+
+<!ELEMENT puertos       (puertoMontaña*)>
+<!ELEMENT puertoMontaña (longitud, latitud, altitud, distancia)>
+<!ATTLIST puertoMontaña categoria (1-Categoría | 2-Categoría | Categoría-Esoecial | Bonificados) #REQUIRED>
+
+<!ELEMENT sprints          (sprintIntermedio, sprintBonificado)>
+<!ELEMENT sprintIntermedio (longitud, latitud, altitud, distancia)>
+<!ELEMENT sprintBonificado (longitud, latitud, altitud, distancia)>
+
+<!-- ===================== CLASIFICACIONES ===================== -->
+<!ELEMENT clasificacion (clasificacionEtapaIndiv,
+                         clasificacionEtapaEquipo,
+                         clasificacionGeneral)>
+
+<!ELEMENT clasificacionEtapaIndiv (clasificado1, clasificado2, clasificado3)>
+<!ELEMENT clasificado1 (#PCDATA)>
+<!ATTLIST clasificado1 tiempo CDATA #IMPLIED>
+<!ELEMENT clasificado2 (#PCDATA)>
+<!ATTLIST clasificado2 tiempo CDATA #IMPLIED>
+<!ELEMENT clasificado3 (#PCDATA)>
+<!ATTLIST clasificado3 tiempo CDATA #IMPLIED>
+
+<!ELEMENT clasificacionEtapaEquipo (clasificado1General, clasificado2General, clasificado3General)>
+<!ELEMENT clasificado1General (#PCDATA)>
+<!ATTLIST clasificado1General tiempo CDATA #IMPLIED>
+<!ELEMENT clasificado2General (#PCDATA)>
+<!ATTLIST clasificado2General tiempo CDATA #IMPLIED>
+<!ELEMENT clasificado3General (#PCDATA)>
+<!ATTLIST clasificado3General tiempo CDATA #IMPLIED>
+
+<!ELEMENT clasificacionGeneral (Equipo1, Equipo2, Equipo3)>
+<!ELEMENT Equipo1 (#PCDATA)>
+<!ATTLIST Equipo1 tiempo CDATA #IMPLIED>
+<!ELEMENT Equipo2 (#PCDATA)>
+<!ATTLIST Equipo2 tiempo CDATA #IMPLIED>
+<!ELEMENT Equipo3 (#PCDATA)>
+<!ATTLIST Equipo3 tiempo CDATA #IMPLIED>

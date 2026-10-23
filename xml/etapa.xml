@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE etapa SYSTEM "etapa.dtd">
+ <etapa tipoEtapa = "montaña">
+        <nombreEtapa>Almuñécar a Loja</nombreEtapa>
+        <numeroEtapa>13</numeroEtapa>
+        <longitudEtapa unidades = "km">500</longitudEtapa>
+        <fechaEtapa>20-8-2026</fechaEtapa>
+        <tiempoGanador>2-50-25</tiempoGanador>
+        <velocidadGanador unidades= "km/h">38</velocidadGanador>
+        <desnivelEtapa undidades = "m">5000</desnivelEtapa>
+        <ciudadInicio>Almuñécar</ciudadInicio>
+        <ciudadFinal>Loja</ciudadFinal>
+        
+
+
+        <referencias>
+
+          <referencia>ref1</referencia>
+          <referencia>ref2</referencia>
+          <referencia>ref3</referencia>
+
+        </referencias>
+
+
+        <multimedia>
+
+          <fotos>
+
+              <foto>foto1</foto>
+              <foto>foto2</foto>
+              <foto>foto3</foto>
+
+          </fotos>
+
+          <videos>
+
+              <video>vid1</video>
+              <video>vid2</video>
+              <video>vid3</video>
+
+          </videos>
+
+          <sonidos>
+             <sonido>sonid1</sonido>
+             <sonido>sonid2</sonido>
+             <sonido>sonid3</sonido>
+          </sonidos>
+
+        </multimedia>
+
+
+        <lugarSalida>
+           <longitud unidades= "grados">500</longitud>
+           <latitud unidades= "grados">500</latitud>
+           <altitud unidades = "m">500</altitud>
+        </lugarSalida>
+
+        <lugarLlegada>
+           <longitud unidades= "grados">500</longitud>
+           <latitud unidades= "grados">500</latitud>
+           <altitud unidades = "m">500</altitud>
+        </lugarLlegada>
+
+
+        <hitosImportantes>
+         
+          <puertos>
+
+            <puertoMontaña categoria = "1-Categoría">
+               <longitud unidades= "grados">500</longitud>
+               <latitud unidades= "grados">500</latitud>
+               <altitud unidades = "m">500</altitud>
+               <distancia unidades = "km">50</distancia>
+            </puertoMontaña>
+
+            <puertoMontaña categoria = "2-Categoría">
+               <longitud unidades= "grados">500</longitud>
+               <latitud unidades= "grados">500</latitud>
+               <altitud unidades = "m">500</altitud>
+               <distancia unidades = "km">50</distancia>
+            </puertoMontaña>
+
+          </puertos>
+
+          <sprints>
+
+            <sprintIntermedio>
+              <longitud unidades= "grados">500</longitud>
+              <latitud unidades= "grados">500</latitud>
+              <altitud unidades = "m">500</altitud>
+              <distancia unidades = "km">50</distancia>
+
+            </sprintIntermedio>
+
+            <sprintBonificado>
+               <longitud unidades= "grados">500</longitud>
+               <latitud unidades= "grados">500</latitud>
+               <altitud unidades = "m">500</altitud>
+               <distancia unidades = "km">50</distancia>
+
+            </sprintBonificado>
+
+          </sprints>
+
+      </hitosImportantes>
+
+
+        <clasificacion>
+
+           <clasificacionEtapaIndiv>
+             <clasificado1>Jonás</clasificado1>
+             <clasificado2 tiempo = "50">Paco</clasificado2>
+             <clasificado3 tiempo = "100">Manuel</clasificado3>
+           </clasificacionEtapaIndiv>
+
+           <clasificacionEtapaEquipo>
+             <clasificado1General>Jonás</clasificado1General>
+             <clasificado2General tiempo = "50">Paco</clasificado2General>
+             <clasificado3General tiempo = "100">Manuel</clasificado3General>
+          </clasificacionEtapaEquipo>
+
+          <clasificacionGeneral>
+            <Equipo1>Jonás</Equipo1>
+            <Equipo2 tiempo = "50">Paco</Equipo2>
+            <Equipo3 tiempo = "100">Manuel</Equipo3>
+         </clasificacionGeneral>
+
+
+        </clasificacion>
+        
+
+    </etapa>

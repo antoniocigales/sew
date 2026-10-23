@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Etapa 13: Almuñécar a Loja</name>
+  <description>Etapa de montaña. 192.8 km. Fecha: 2026-09-04</description>
+  <Style id="salidaMeta">
+    <IconStyle>
+      <color>ff0000ff</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="puerto">
+    <IconStyle>
+      <color>ff00ff00</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="sprint">
+    <IconStyle>
+      <color>ffff0000</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="anonimo">
+    <IconStyle>
+      <color>ff00ffff</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="linea">
+    <LineStyle>
+      <color>ff00a5ff</color>
+      <width>4</width>
+    </LineStyle>
+  </Style>
+  <Placemark>
+    <name>Recorrido: Almuñécar a Loja</name>
+    <styleUrl>#linea</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <altitudeMode>clampToGround</altitudeMode>
+      <coordinates>
+        -3.6906,36.7339,20
+        -3.5866,36.7446,40
+        -3.5600,36.8000,100
+        -3.5980,36.8440,450
+        -3.5930,36.8620,640
+        -3.5880,36.8780,820
+        -3.5800,36.8950,700
+        -3.5680,36.9120,790
+        -3.5450,36.9180,560
+        -3.5550,36.9380,790
+        -3.5650,36.9880,790
+        -3.6250,37.0240,745
+        -3.6500,37.0450,800
+        -3.6650,37.0400,870
+        -3.6900,37.0340,990
+        -3.7050,37.0240,1130
+        -3.7180,37.0120,1250
+        -3.7300,37.0000,1348
+        -3.7700,36.9800,1130
+        -3.8231,36.9505,915
+        -3.8800,36.9750,900
+        -3.8850,36.9950,860
+        -3.8900,37.0350,1040
+        -3.9200,37.0700,820
+        -3.9380,37.1360,700
+        -3.9500,37.1900,690
+        -3.9680,37.2140,640
+        -3.9820,37.2317,610
+        -3.9900,37.2450,620
+        -4.0030,37.2700,850
+        -4.0100,37.2900,1034
+        -4.0098,37.3217,834
+        -4.0600,37.3000,780
+        -4.0550,37.2250,520
+        -4.0470,37.1940,485
+        -4.0950,37.1800,470
+        -4.1514,37.1687,475
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Folder>
+    <name>Salida y meta</name>
+    <Placemark>
+      <name>Salida: Almuñécar</name>
+      <description>Km 0</description>
+      <styleUrl>#salidaMeta</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.6906,36.7339,20</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Meta: Loja</name>
+      <description>Km 192.8</description>
+      <styleUrl>#salidaMeta</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-4.1514,37.1687,475</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Puertos de montaña</name>
+    <Placemark>
+      <name>Puerto 1 (1-Categoría)</name>
+      <description>Km 31.2 - 820 m</description>
+      <styleUrl>#puerto</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.5880,36.8780,820</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Puerto 2 (3-Categoría)</name>
+      <description>Km 83.4 - 1348 m</description>
+      <styleUrl>#puerto</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.7300,37.0000,1348</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Puerto 3 (2-Categoría)</name>
+      <description>Km 155.4 - 1034 m</description>
+      <styleUrl>#puerto</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-4.0100,37.2900,1034</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Sprints</name>
+    <Placemark>
+      <name>Sprint intermedio</name>
+      <description>Km 145.0</description>
+      <styleUrl>#sprint</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.9820,37.2317,610</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sprint bonificado</name>
+      <description>Km 180.9</description>
+      <styleUrl>#sprint</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-4.0470,37.1940,485</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Puntos anónimos</name>
+    <Placemark>
+      <name>Punto 1</name>
+      <description>Km 5.0</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.5866,36.7446,40</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 2</name>
+      <description>Km 16.6</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.5600,36.8000,100</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 3</name>
+      <description>Km 23.6</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.5980,36.8440,450</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 4</name>
+      <description>Km 27.5</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.5930,36.8620,640</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 5</name>
+      <description>Km 35.0</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.5800,36.8950,700</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 6</name>
+      <description>Km 38.8</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.5680,36.9120,790</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 7</name>
+      <description>Km 42.9</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.5450,36.9180,560</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 8</name>
+      <description>Km 48.2</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.5550,36.9380,790</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 9</name>
+      <description>Km 53.3</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.5650,36.9880,790</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 10</name>
+      <description>Km 61.0</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.6250,37.0240,745</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 11</name>
+      <description>Km 65.8</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.6500,37.0450,800</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 12</name>
+      <description>Km 67.8</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.6650,37.0400,870</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 13</name>
+      <description>Km 72.5</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.6900,37.0340,990</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 14</name>
+      <description>Km 77.0</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.7050,37.0240,1130</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 15</name>
+      <description>Km 80.5</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.7180,37.0120,1250</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 16</name>
+      <description>Km 88.0</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.7700,36.9800,1130</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 17</name>
+      <description>Km 93.0</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.8231,36.9505,915</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 18</name>
+      <description>Km 100.6</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.8800,36.9750,900</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 19</name>
+      <description>Km 104.3</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.8850,36.9950,860</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 20</name>
+      <description>Km 110.5</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.8900,37.0350,1040</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 21</name>
+      <description>Km 117.8</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.9200,37.0700,820</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 22</name>
+      <description>Km 127.9</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.9380,37.1360,700</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 23</name>
+      <description>Km 136.0</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.9500,37.1900,690</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 24</name>
+      <description>Km 141.5</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.9680,37.2140,640</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 25</name>
+      <description>Km 148.0</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-3.9900,37.2450,620</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 26</name>
+      <description>Km 152.0</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-4.0030,37.2700,850</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 27</name>
+      <description>Km 159.5</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-4.0098,37.3217,834</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 28</name>
+      <description>Km 165.2</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-4.0600,37.3000,780</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 29</name>
+      <description>Km 178.3</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-4.0550,37.2250,520</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 30</name>
+      <description>Km 186.0</description>
+      <styleUrl>#anonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-4.0950,37.1800,470</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>

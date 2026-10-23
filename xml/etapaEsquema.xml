@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<etapa xmlns="http://www.uniovi.es"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.uniovi.es etapa.xsd"
+       tipoEtapa="montaña">
+
+        <nombreEtapa>Almuñécar a Loja</nombreEtapa>
+        <numeroEtapa>13</numeroEtapa>
+        <longitudEtapa unidades="km">192.8</longitudEtapa>
+        <fechaEtapa>2026-09-04</fechaEtapa>
+        <tiempoGanador>PT4H34M0S</tiempoGanador>
+        <velocidadGanador unidades="km/h">42.01</velocidadGanador>
+        <desnivelEtapa unidades="m">3404</desnivelEtapa>
+        <ciudadInicio>Almuñécar</ciudadInicio>
+        <ciudadFinal>Loja</ciudadFinal>
+
+        <referencias>
+          <referencia>https://www.lavuelta.es/es/etapa-13</referencia>
+
+        </referencias>
+
+        <multimedia>
+          <fotos>
+              <foto>multimedia/foto1.jpg</foto>
+              <foto>multimedia/foto2.jpg</foto>
+              <foto>multimedia/foto3.jpg</foto>
+          </fotos>
+          <videos>
+              <video>multimedia/vid1.mp4</video>
+              <video>multimedia/vid2.mp4</video>
+              <video>multimedia/vid3.mp4</video>
+          </videos>
+          <sonidos>
+             <sonido>multimedia/sonid1.mp3</sonido>
+             <sonido>multimedia/sonid2.mp3</sonido>
+             <sonido>multimedia/sonid3.mp3</sonido>
+          </sonidos>
+        </multimedia>
+
+        <lugarSalida>
+           <longitud unidades="grados">-3.6906</longitud>
+           <latitud unidades="grados">36.7339</latitud>
+           <altitud unidades="m">20</altitud>
+        </lugarSalida>
+
+        <lugarLlegada>
+           <longitud unidades="grados">-4.1514</longitud>
+           <latitud unidades="grados">37.1687</latitud>
+           <altitud unidades="m">475</altitud>
+        </lugarLlegada>
+
+        <puntosAnonimos>
+            <!-- km 5: Salobreña -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-3.5866</longitud>
+               <latitud unidades="grados">36.7446</latitud>
+               <altitud unidades="m">40</altitud>
+               <distancia unidades="km">5.00</distancia>
+            </puntoAnonimo>
+            <!-- km 16.6: Cruce dirección Los Guájares (comienza puerto) -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-3.5600</longitud>
+               <latitud unidades="grados">36.8000</latitud>
+               <altitud unidades="m">100</altitud>
+               <distancia unidades="km">16.60</distancia>
+            </puntoAnonimo>
+            <!-- km 23.6: Guájar Faragüit -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-3.5980</longitud>
+               <latitud unidades="grados">36.8440</latitud>
+               <altitud unidades="m">450</altitud>
+               <distancia unidades="km">23.60</distancia>
+            </puntoAnonimo>
+            <!-- km 27.5: Subida a Venta de la Cebada -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-3.5930</longitud>
+               <latitud unidades="grados">36.8620</latitud>
+               <altitud unidades="m">640</altitud>
+               <distancia unidades="km">27.50</distancia>
+            </puntoAnonimo>
+            <!-- km 35: Descenso -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-3.5800</longitud>
+               <latitud unidades="grados">36.8950</latitud>
+               <altitud unidades="m">700</altitud>
+               <distancia unidades="km">35.00</distancia>
+            </puntoAnonimo>
+            <!-- km 38.8: Pinos del Valle -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-3.5680</longitud>
+               <latitud unidades="grados">36.9120</latitud>
+               <altitud unidades="m">790</altitud>
+               <distancia unidades="km">38.80</distancia>
+            </puntoAnonimo>
+            <!-- km 42.9: Restábal -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-3.5450</longitud>
+               <latitud unidades="grados">36.9180</latitud>
+               <altitud unidades="m">560</altitud>
+               <distancia unidades="km">42.90</distancia>
+            </puntoAnonimo>
+            <!-- km 48.2: Lecrín -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-3.5550</longitud>
+               <latitud unidades="grados">36.9380</latitud>
+               <altitud unidades="m">790</altitud>
+               <distancia unidades="km">48.20</distancia>
+            </puntoAnonimo>
+            <!-- km 53.3: Dúrcal -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-3.5650</longitud>
+               <latitud unidades="grados">36.9880</latitud>
+               <altitud unidades="m">790</altitud>
+               <distancia unidades="km">53.30</distancia>
+            </puntoAnonimo>
+            <!-- km 61: Padul -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-3.6250</longitud>
+               <latitud unidades="grados">37.0240</latitud>
+               <altitud unidades="m">745</altitud>
+               <distancia unidades="km">61.00</distancia>
+            </puntoAnonimo>
+            <!-- km 65.8: Rotonda dirección Otívar -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-3.6500</longitud>
+               <latitud unidades="grados">37.0450</latitud>
+               <altitud unidades="m">800</altitud>
+               <distancia unidades="km">65.80</distancia>
+            </puntoAnonimo>
+            <!-- km 67.8: Comienza puerto -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-3.6650</longitud>
+               <latitud unidades="grados">37.0400</latitud>
+               <altitud unidades="m">870</altitud>
+               <distancia unidades="km">67.80</distancia>
+            </puntoAnonimo>
+            <!-- km 72.5: Subida al Legionario -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-3.6900</longitud>
+               <latitud unidades="grados">37.0340</latitud>
+               <altitud unidades="m">990</altitud>
+               <distancia unidades="km">72.50</distancia>
+            </puntoAnonimo>
+            <!-- km 77: Subida al Legionario -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-3.7050</longitud>
+               <latitud unidades="grados">37.0240</latitud>
+               <altitud unidades="m">1130</altitud>
+               <distancia unidades="km">77.00</distancia>
+            </puntoAnonimo>
+            <!-- km 80.5: Subida al Legionario -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-3.7180</longitud>
+               <latitud unidades="grados">37.0120</latitud>
+               <altitud unidades="m">1250</altitud>
+               <distancia unidades="km">80.50</distancia>
+            </puntoAnonimo>
+            <!-- km 88: Descenso -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-3.7700</longitud>
+               <latitud unidades="grados">36.9800</latitud>
+               <altitud unidades="m">1130</altitud>
+               <distancia unidades="km">88.00</distancia>
+            </puntoAnonimo>
+            <!-- km 93: Jayena -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-3.8231</longitud>
+               <latitud unidades="grados">36.9505</latitud>
+               <altitud unidades="m">915</altitud>
+               <distancia unidades="km">93.00</distancia>
+            </puntoAnonimo>
+            <!-- km 100.6: Cruce dirección Pantano de los Bermejales -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-3.8800</longitud>
+               <latitud unidades="grados">36.9750</latitud>
+               <altitud unidades="m">900</altitud>
+               <distancia unidades="km">100.60</distancia>
+            </puntoAnonimo>
+            <!-- km 104.3: Pantano de los Bermejales -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-3.8850</longitud>
+               <latitud unidades="grados">36.9950</latitud>
+               <altitud unidades="m">860</altitud>
+               <distancia unidades="km">104.30</distancia>
+            </puntoAnonimo>
+            <!-- km 110.5: Alto sin categoría -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-3.8900</longitud>
+               <latitud unidades="grados">37.0350</latitud>
+               <altitud unidades="m">1040</altitud>
+               <distancia unidades="km">110.50</distancia>
+            </puntoAnonimo>
+            <!-- km 117.8: Cruce dirección El Turro -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-3.9200</longitud>
+               <latitud unidades="grados">37.0700</latitud>
+               <altitud unidades="m">820</altitud>
+               <distancia unidades="km">117.80</distancia>
+            </puntoAnonimo>
+            <!-- km 127.9: El Turro -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-3.9380</longitud>
+               <latitud unidades="grados">37.1360</latitud>
+               <altitud unidades="m">700</altitud>
+               <distancia unidades="km">127.90</distancia>
+            </puntoAnonimo>
+            <!-- km 136: Loreto -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-3.9500</longitud>
+               <latitud unidades="grados">37.1900</latitud>
+               <altitud unidades="m">690</altitud>
+               <distancia unidades="km">136.00</distancia>
+            </puntoAnonimo>
+            <!-- km 141.5: Brácana -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-3.9680</longitud>
+               <latitud unidades="grados">37.2140</latitud>
+               <altitud unidades="m">640</altitud>
+               <distancia unidades="km">141.50</distancia>
+            </puntoAnonimo>
+            <!-- km 148: Comienza puerto -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-3.9900</longitud>
+               <latitud unidades="grados">37.2450</latitud>
+               <altitud unidades="m">620</altitud>
+               <distancia unidades="km">148.00</distancia>
+            </puntoAnonimo>
+            <!-- km 152: Subida a Puerto de Granada -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-4.0030</longitud>
+               <latitud unidades="grados">37.2700</latitud>
+               <altitud unidades="m">850</altitud>
+               <distancia unidades="km">152.00</distancia>
+            </puntoAnonimo>
+            <!-- km 159.5: Montefrío -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-4.0098</longitud>
+               <latitud unidades="grados">37.3217</latitud>
+               <altitud unidades="m">834</altitud>
+               <distancia unidades="km">159.50</distancia>
+            </puntoAnonimo>
+            <!-- km 165.2: Cruce dirección Huétor-Tájar -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-4.0600</longitud>
+               <latitud unidades="grados">37.3000</latitud>
+               <altitud unidades="m">780</altitud>
+               <distancia unidades="km">165.20</distancia>
+            </puntoAnonimo>
+            <!-- km 178.3: La Fábrica -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-4.0550</longitud>
+               <latitud unidades="grados">37.2250</latitud>
+               <altitud unidades="m">520</altitud>
+               <distancia unidades="km">178.30</distancia>
+            </puntoAnonimo>
+            <!-- km 186: Hacia Loja -->
+            <puntoAnonimo>
+               <longitud unidades="grados">-4.0950</longitud>
+               <latitud unidades="grados">37.1800</latitud>
+               <altitud unidades="m">470</altitud>
+               <distancia unidades="km">186.00</distancia>
+            </puntoAnonimo>
+        </puntosAnonimos>
+
+        <hitosImportantes>
+          <puertos>
+            <!-- km 31.2: PM 1ª Venta de la Cebada -->
+            <puertoMontaña categoria="1-Categoría">
+               <longitud unidades="grados">-3.5880</longitud>
+               <latitud unidades="grados">36.8780</latitud>
+               <altitud unidades="m">820</altitud>
+               <distancia unidades="km">31.20</distancia>
+            </puertoMontaña>
+            <!-- km 83.4: PM 3ª Alto del Legionario -->
+            <puertoMontaña categoria="3-Categoría">
+               <longitud unidades="grados">-3.7300</longitud>
+               <latitud unidades="grados">37.0000</latitud>
+               <altitud unidades="m">1348</altitud>
+               <distancia unidades="km">83.40</distancia>
+            </puertoMontaña>
+            <!-- km 155.4: PM 2ª Puerto de Granada -->
+            <puertoMontaña categoria="2-Categoría">
+               <longitud unidades="grados">-4.0100</longitud>
+               <latitud unidades="grados">37.2900</latitud>
+               <altitud unidades="m">1034</altitud>
+               <distancia unidades="km">155.40</distancia>
+            </puertoMontaña>
+          </puertos>
+
+          <sprints>
+            <!-- km 145: Tocón (sprint intermedio) -->
+            <sprintIntermedio>
+               <longitud unidades="grados">-3.9820</longitud>
+               <latitud unidades="grados">37.2317</latitud>
+               <altitud unidades="m">610</altitud>
+               <distancia unidades="km">145.00</distancia>
+            </sprintIntermedio>
+            <!-- km 180.9: Huétor-Tájar (sprint bonificado) -->
+            <sprintBonificado>
+               <longitud unidades="grados">-4.0470</longitud>
+               <latitud unidades="grados">37.1940</latitud>
+               <altitud unidades="m">485</altitud>
+               <distancia unidades="km">180.90</distancia>
+            </sprintBonificado>
+          </sprints>
+        </hitosImportantes>
+
+        <clasificacion>
+           <clasificacionEtapaIndiv>
+             <clasificado1 tiempo="PT4H34M0S">W. Van Aert</clasificado1>
+             <clasificado2 tiempo="PT4H34M00S">V.Paret Peintre</clasificado2>
+             <clasificado3 tiempo="PT4H34M24S">J. Brennan</clasificado3>
+           </clasificacionEtapaIndiv>
+
+           <clasificacionEtapaEquipo>
+             <clasificado1General tiempo="PT13H43M59S">Lotto Intermarche</clasificado1General>
+             <clasificado2General tiempo="PT13H44M7S">Uno-X Mobility</clasificado2General>
+             <clasificado3General tiempo="PT13H45M02S">Groupama-FDJ United</clasificado3General>
+           </clasificacionEtapaEquipo>
+
+           <clasificacionGeneral>
+             <Equipo1 tiempo="PT45H8M51S">E. Mas</Equipo1>
+             <Equipo2 tiempo="PT45H10M36S">P. Roglic</Equipo2>
+             <Equipo3 tiempo="PT45H10M57S">F. Gall</Equipo3>
+           </clasificacionGeneral>
+        </clasificacion>
+
+</etapa>

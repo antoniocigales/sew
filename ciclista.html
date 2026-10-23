@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026:Ciclista</title>
+
+    <meta name="author" content="Antonio Cigales Roces" />
+    <meta name="description" content="Documento ciclista.html del proyecto LaVuelta2026" />
+    
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <!--Enlace a las hojas de estilo-->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+
+    <link rel="icon" href="multimedia/icono.ico" />
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html" title="Página de inicio de LaVuelta2026">LaVuelta2026</a></h1>
+        <nav>
+            <a href="index.html" title="Página de inicio de LaVuelta2026">Inicio</a>
+            <a href="ciclista.html" aria-current="page" title="Información sobre el ciclista">Ciclista</a>
+            <a href="equipo.html" title="Información sobre el equipo del ciclista">Equipo</a>
+            <a href="etapa.html" title="Información sobre la etapa de La Vuelta 2026">Etapa</a>
+            <a href="meteorologia.html" title="Previsión meteorológica de la etapa">Meteorología</a>
+            <a href="clasificaciones.html" title="Clasificaciones de La Vuelta 2026">Clasificaciones</a>
+            <a href="juegos.html" title="Juegos sobre La Vuelta 2026">Juegos</a>
+            <a href="ayuda.html" title="Ayuda sobre el uso del sitio web">Ayuda</a>
+        </nav>
+    </header>
+
+
+    <nav aria-label="migas">
+        <ol>
+            <li><a href="index.html" title="Página de inicio de LaVuelta2026">Inicio</a></li>
+            <li>&gt;&gt;</li>
+            <li>Ciclista</li>
+        </ol>
+    </nav>
+
+    <main>
+    <h2>Mikel Azparren</h2>
+
+    <section>
+        <h3>Datos Personales</h3>
+
+        <ul>
+            <li>Xabier Mikel Azparren Irurzun</li>
+            <li><time datetime="1999-02-25">25/02/1999</time></li>
+            <li>España</li>
+            <li>PINARELLO-Q36.5 PRO CYCLING TEAM</li>
+        </ul>
+
+        <picture>
+            <!-- Móvil: pantallas de hasta 768 px de ancho -->
+            <source media="(max-width: 768px)" srcset="multimedia/MikelAzparren-movil.png" width="140" height="212" />
+            <!-- Tablet: pantallas de hasta 1024 px de ancho -->
+            <source media="(max-width: 1024px)" srcset="multimedia/MikelAzparren-tablet.png" width="280" height="425" />
+            <!-- Ordenador (y navegadores sin soporte para picture): imagen original -->
+            <img src="multimedia/MikelAzparren.png" width="300" height="455"
+                alt="Xabier Mikel Azparren de brazos cruzados con el maillot azul del Pinarello Q36.5 Pro Cycling Team" />
+        </picture>
+
+    </section>
+
+    <section>
+        <h3>Datos Equipo</h3>
+
+
+        <ol>
+            <li>AMPO Goierriko T.B.</li>
+            <li>Euskaltel - Euskadi</li>
+            <li>Q36.5 Pro Cycling Team</li>
+            
+        </ol>
+
+    </section>
+
+
+    <section>
+        <h3>Temporada 2025</h3>
+        <table>
+            <caption>Resultados de Xabier Mikel Azparren en la temporada 2025</caption>
+            <thead>
+                <tr>
+                    <th scope="col" id="dato">Datos</th>
+                    <th scope="col" id="resultado">Resultados</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row" id="carreras">Carreras</th>
+                    <td headers="resultado carreras">31</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="dias">Días de competición</th>
+                    <td headers="resultado dias">74</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="kilometros">Kilómetros</th>
+                    <td headers="resultado kilometros">5272</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="victorias">Victorias</th>
+                    <td headers="resultado victorias">0</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="top10">Top 10</th>
+                    <td headers="resultado top10">6</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="giro">Puesto Giro de Italia</th>
+                    <td headers="resultado giro">125</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="chrono">Puesto Chrono des Nations</th>
+                    <td headers="resultado chrono">8</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h3>Multimedia</h3>
+
+        <p>
+            Equipo <a href="https://www.lavuelta.es/es/equipo/PQT/pinarello-q36-5-pro-cycling-team"
+                title="Página del equipo PINARELLO-Q36.5 PRO CYCLING TEAM en La Vuelta 2026">PINARELLO-Q36.5 PRO CYCLING TEAM</a>
+            en la Vuelta Ciclista a España 2026.
+        </p>
+
+        <video controls width="640" height="360" poster="multimedia/poster-equipo.png">
+            <source src="multimedia/presentacion-equipo.webm" type="video/webm" />
+            <source src="multimedia/presentacion-equipo.mp4" type="video/mp4" />
+            Tu navegador no puede reproducir este vídeo.
+        </video>
+
+        <audio controls>
+            <source src="multimedia/2247.0-2257.0.mp3" type="audio/mpeg" />
+            <source src="multimedia/2247.0-2257.0.wav" type="audio/wav" />
+            Tu navegador no puede reproducir este audio.
+        </audio>
+
+    </section>
+   <!-- contenido de ciclista.html  -->
+
+
+   </main>
+   <footer>
+    <p>Antonio Cigales Roces</p>
+    <address>
+        <a href="mailto:uo307137@uniovi.es" title="Enviar un correo electrónico al autor">uo307137@uniovi.es</a>
+    </address>
+</footer>
+    
+</body>
+</html>
