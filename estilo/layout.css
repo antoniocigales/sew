@@ -222,4 +222,12 @@ form > button {
     audio {
         width: 100%;
     }
+
+    /* Especificidad: 003 */
+    form > fieldset > fieldset {
+        display: flex;
+        flex-direction: column;
+        gap: 0.3em;
+        padding: 0;
+    }
 }
