@@ -23,6 +23,7 @@ body {
         "migas"
         "contenido"
         "pie";
+    grid-template-columns: minmax(0, 1fr);
     grid-template-rows: auto auto 1fr auto;
 }
 
@@ -151,6 +152,15 @@ form > fieldset {
 /* Especificidad: 003 */
 form > fieldset > fieldset {
     border: none;
+    min-width: 0;
+}
+
+/* Especificidad: 002, 002, 002 */
+form input,
+form select,
+form textarea {
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 /* Especificidad: 002 */
